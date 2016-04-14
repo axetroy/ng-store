@@ -1,6 +1,6 @@
 {
   "name": "ng-store",
-  "description": "a server store for angular base with store.js",
+  "description": "AngularJS store service base with store.js",
   "main": "。/dist/ngStore.js",
   "authors": [
     "axetroy"

@@ -1,0 +1,16 @@
+{
+  "name": "ng-store",
+  "description": "a server store for angular base with store.js",
+  "main": "。/dist/ngStore.js",
+  "authors": [
+    "axetroy"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "homepage": ""
+}

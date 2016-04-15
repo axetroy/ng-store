@@ -39,7 +39,7 @@ ngStoreProvider.prefix('test').exp(1000 * 5);
 
 #### prefix
 
-> `default`:no prefix
+> `default`:'st'
 
 #### exp
 

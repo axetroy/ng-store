@@ -100,3 +100,9 @@ var watcher = ngStore.$watch('user', function (newVal, oldVal) {
 #### return{function}
 
 return a function which can cancel this watcher like ``$scope.$watch``
+
+## Build
+
+```bash
+grunt build
+```

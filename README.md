@@ -57,6 +57,47 @@ ngStore.clear();        // [{key:'marcus'},value:{name: 'marcus', likes: 'javasc
 
 allmost like [store.js](https://github.com/marcuswestin/store.js)'s api
 
+- set(key,value,exp)
+  - key{string}
+  - value{any}
+  - exp:[number],if no fill this argument,user default exp ``3600 * 24 * 7``
+
+store the cache,accept and value except the function
+
+- get(key)
+  - key{string}
+
+return {value} or ``nuill``
+
+get the store ignore which not you store like some ``Google analysis`` and ``Baidu analysis`` 
+
+- remove(key)
+  - key{string}
+
+return {object} which been delete
+
+remove the cache 
+
+- has(key)
+  - key{string}
+
+return {boolean} 
+
+check the cache exsit or not,ignore which not you store
+
+- forEach(func)
+  - func{function}
+
+like angular.forEach
+
+- getAll()
+
+return the all key you own
+
+- clear()
+
+clear the all cache ignore which not you store
+
 ## Referrence 
 [store.js](https://github.com/marcuswestin/store.js)
 

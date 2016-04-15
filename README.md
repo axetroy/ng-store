@@ -48,10 +48,10 @@ ngStoreProvider.prefix('test').exp(1000 * 5);
 ## Document
 
 ```javascript
-ngStore.set('user', {name: 'marcus', likes: 'javascript'});
-ngStore.get('user');
-ngStore.remove('user');
-ngStore.clear();
+ngStore.set('user', {name: 'marcus', likes: 'javascript',1000 * 60}); // store a object in 1 min
+ngStore.get('user');    // {name: 'marcus', likes: 'javascript',1000 * 60}
+ngStore.remove('user'); // marcus   return the key which been delete
+ngStore.clear();        // [{key:'marcus'},value:{name: 'marcus', likes: 'javascript',1000 * 60}]     return a list which been delete
 ...
 ```
 

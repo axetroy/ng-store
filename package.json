@@ -2,7 +2,7 @@
   "name": "ng-store",
   "version": "1.0.0",
   "description": "",
-  "main": "。/dist/ngStore.js",
+  "main": "./dist/ngStore.js",
   "store": "",
   "devDependencies": {
     "babelify": "^6.1.0",
@@ -22,9 +22,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "axetroy",
-  "license": "MIT",
-  "dependencies": {
-    "store": "^1.3.20",
-    "angular": "^1.5.3"
-  }
+  "license": "MIT"
 }

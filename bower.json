@@ -1,10 +1,13 @@
 {
   "name": "ng-store",
   "description": "AngularJS store service base with store.js",
-  "main": "。/dist/ngStore.js",
+  "main": "./dist/ngStore.js",
   "authors": [
     "axetroy"
   ],
+  "dependencies": {
+    "angular": "^1.0.8"
+  },
   "license": "MIT",
   "moduleType": [
     "amd",

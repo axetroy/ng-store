@@ -1,4 +1,6 @@
 # ng-store
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/ng-store.svg)](https://greenkeeper.io/)
 AngularJS store service base on store.js
 
 origin [store.js](https://github.com/marcuswestin/store.js)

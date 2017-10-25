@@ -5,7 +5,7 @@
   "main": "./dist/ngStore.js",
   "store": "",
   "devDependencies": {
-    "babelify": "^7.3.0",
+    "babelify": "^8.0.0",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-clean": "^1.0.0",
